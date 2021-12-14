@@ -22,7 +22,7 @@ public class HelloController {
     private CustomerRepository customerRepository;
 
     @GetMapping("/")
-    public String index() {
+    public Iterable<Customer> index() {
         Iterable<Customer> customer = customerRepository.findAll();
         return customer;
     }
