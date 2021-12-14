@@ -24,7 +24,7 @@ public class HelloController {
     @GetMapping("/")
     public String index() {
 
-        return "Hola Mundo";
+        return "</br><h1 align='center'>Hola Mundo</h1>";
     }
 
 }
