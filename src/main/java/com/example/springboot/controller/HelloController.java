@@ -5,10 +5,7 @@
  */
 package com.example.springboot.controller;
 
-/**
- *
- * @author jajimenez
- */
+
 import com.example.springboot.entity.Customer;
 import com.example.springboot.repositories.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
