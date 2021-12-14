@@ -23,8 +23,8 @@ public class HelloController {
 
     @GetMapping("/")
     public String index() {
-
-        return "</br><h1 align='center'>Hola Mundo</h1>";
+        Iterable<Customer> customer = customerRepository.findAll();
+        return customer;
     }
 
 }
